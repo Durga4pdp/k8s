@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod 
+metadata:
+  name: durgapod
+spec:
+  containers:
+    - name: myc1
+      image: nginx
+      ports: 
+      - containerPort: 80

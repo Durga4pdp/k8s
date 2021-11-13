@@ -4,7 +4,7 @@ metadata:
   name: durgasvc
   labels:
     app: durgaapp 
-    version: 2.6.0
+    version: 2.6.1
 spec:
   type: Nodeport
   ports:
@@ -13,5 +13,5 @@ spec:
     protocol: TCP
   selector:
     app: durgaapp 
-    version: 2.6.0
+    version: 2.6.1
     

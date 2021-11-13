@@ -4,8 +4,8 @@ metadata:
   name: durgarc
 spec:
   replicas: 3
-selector:
-  app: durgaapp
+  selector:
+    app: durgaapp
   templates:
     metadata:
       labels:

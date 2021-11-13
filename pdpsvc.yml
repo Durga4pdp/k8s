@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: service
+metadata:
+  name: durgasvc
+  labels:
+    app: durgaapp 
+    version: 2.6.0
+spec:
+  type: nodeport
+  ports:
+  - port: 8080    
+    nodeport: 2001
+    protocol: tcp
+  selector:
+    app: durgaapp 
+    version: 2.6.0
+      

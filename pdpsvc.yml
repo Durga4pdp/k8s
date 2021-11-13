@@ -9,7 +9,7 @@ spec:
   type: Nodeport
   ports:
   - port: 8080    
-    nodeport: 2001
+    nodeport: 3001
     protocol: TCP
   selector:
     app: durgaapp 

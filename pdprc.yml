@@ -6,10 +6,12 @@ spec:
   replicas: 3
   selector:
     app: durgaapp
+    version: 2.6.0
   template:
     metadata:
       labels:
         app: durgaapp
+        version: 2.6.0
     spec:
       containers: 
       - name: myc11

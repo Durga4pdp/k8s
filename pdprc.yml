@@ -7,14 +7,14 @@ spec:
 selector:
   app: durgaapp
   templates:
-  metadata:
-    labels:
-      app: durgaapp
-  spec:
-    containers: 
-    - name: myc11
-      image: nginx
-      ports:
-      - containerPort: 8080
-          
+    metadata:
+      labels:
+        app: durgaapp
+    spec:
+      containers: 
+      - name: myc11
+        image: nginx
+        ports:
+        - containerPort: 8080
+
    

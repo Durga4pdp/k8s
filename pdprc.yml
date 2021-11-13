@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ReplicationController 
 metadata:
-  name: durgarc
+  name: durgaarc
 spec:
   replicas: 3
   selector:
     app: durgaapp
-  templates:
+  template:
     metadata:
       labels:
         app: durgaapp

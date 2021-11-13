@@ -4,7 +4,7 @@ metadata:
   name: durgapod
 spec:
   containers:
-  - name: myc11
+  - name: myc1
     image: nginx
     ports:
-    - containerPorts: 80  
+    - containerPort: 80  

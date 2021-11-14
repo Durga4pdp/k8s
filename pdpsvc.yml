@@ -6,7 +6,7 @@ metadata:
     app: durgaapp 
     version: 2.6.1
 spec:
-  type: Nodeport
+  type: NodePort
   ports:
   - port: 8080    
     nodeport: 30001

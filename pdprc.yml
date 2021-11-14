@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController 
 metadata:
-  name: durgaarc
+  name: durgarc
 spec:
   replicas: 2
   selector:

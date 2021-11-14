@@ -1,0 +1,14 @@
+apiversion: v1
+kind: Service
+metadata:
+  name: durga-svc
+  labels:
+    app: durgadeploy
+spec:
+  type: NodePort    
+  ports:
+  - port: 8080
+    nodeport: 30001
+    protocol: TCP
+  selector:
+    app: durgadeploy  

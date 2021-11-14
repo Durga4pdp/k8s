@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myc2
-        image: nginx
+        image: jenkins:2.60.3
         ports:
         - containerPort: 8080
